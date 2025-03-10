@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large Profile Card</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            width: 40vw; /* Covers 40% of the screen width */
+            height: 85vh; /* Covers 85% of the screen height */
+            padding: 30px;
+            background: white;
+            border: 4px solid purple;
+            border-radius: 15px;
+            box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid purple;
+            background-image: url('myself.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin-top: 10px;
+        }
+        .info {
+            width: 80%;
+            font-size: 22px;
+            color: purple;
+            text-align: left;
+            margin-top: 20px;
+        }
+        .age-dob {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-img"></div>
+        <div class="info">
+            <p><strong>Name:</strong> Payal Bahubali Khot</p>
+            <p><strong>Email:</strong> payalkhot59@gmail.com</p>
+            <p><strong>Phone:</strong> 8088128371</p>
+            <div class="age-dob">
+                <p><strong>Age:</strong> 21</p>
+                <p><strong>DOB:</strong> 18-05-2004</p>
+            </div>
+            <p><strong>Address:</strong> A/p Ganeshwadi, Tal-Shirol, Dist-Kolhapur, India</p>
+        </div>
+    </div>
+
+</body>
+</html>
